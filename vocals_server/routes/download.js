@@ -3,8 +3,12 @@ var path = require('path');
 
 var router = express.Router();
 
-router.post('/', function(req,res) {
+router.post('/client', function(req,res) {
 
+});
+
+router.post('/process', function(req,res){
+    
 });
 
 module.exports = router;
