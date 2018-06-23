@@ -3,3 +3,12 @@
   font-weight: 400;
   font-size: 20px;
 }
+
+.jumbotron {
+  height: 400px;
+  font-family: 'Alegreya Sans';
+  color: white;
+  /*background: linear-gradient( rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5) ), url("../assets/speak.png");*/
+  background-color: #212121;
+  padding-top: 150px;
+}

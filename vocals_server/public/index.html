@@ -28,6 +28,9 @@
           <li class="nav-item">
             <a class="nav-link" href="#">Pricing</a>
           </li>
+          <li class="nav-item">
+            <a class="nav-link" href="#">Try now</a>
+          </li>
         </ul>
       </div>
        <form class="form-inline auth0">
@@ -37,24 +40,42 @@
     </nav>
     <div class="jumbotron jumbotron-fluid">
       <div class="container">
-        <h1 class="display-4">Fluid jumbotron</h1>
-        <p class="lead">This is a modified jumbotron that occupies the entire horizontal space of its parent.</p>
+        <h1 class="display-4 text-center">SOUND PROFESSIONAL.</h1>
+        <p class="lead text-center" style="font-size: 30px;">
+          Make yourself sound like a professional narrator.
+        </p>
       </div>
     </div>
 
-    <div class="container uploadbox">
-      <form action="/upload" method="POST" enctype="multipart/form-data">
-        <div class="form-group">
-          <label for="exampleInputEmail1">Email address</label>
-          <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-          <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
-        </div>
-        <div class="custom-file mb-sm-3">
-          <input type="file" class="custom-file-input" id="customFile" name="sampleAudio">
-          <label class="custom-file-label" for="customFile">Choose file</label>
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+    <div class="container">
+      <div class="row">
+        <h1 class="mb-sm-3">Features</h1>
+        <p class="lead text-left">
+          vocals.ml is a neural network capable of converting your normal voice recording to that of a professional narrator. Using vocals.ml,
+          you can create professional voiceovers, youtube videos, promotional videos, school projects, audiobooks and so much more! Try it out
+          for free below.
+        </p>
+      </div>
+      <div class="row">
+        <h1 class="mb-sm-3">Pricing</h1>
+      </div>
+      <div class="row">
+         <h1 class="mb-sm-3">Try now</h1>
+      </div>
+      <div class="row">
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+          <div class="form-group">
+            <label for="exampleInputEmail1">Email address</label>
+            <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
+            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+          </div>
+          <div class="custom-file mb-sm-3">
+            <input type="file" class="custom-file-input" id="customFile" name="sampleAudio">
+            <label class="custom-file-label" for="customFile">Choose file</label>
+          </div>
+          <button type="submit" class="btn btn-primary">Submit</button>
+        </form>
+      </div>
     </div>
 
     <!-- Optional JavaScript -->
