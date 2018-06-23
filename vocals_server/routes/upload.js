@@ -17,7 +17,8 @@ router.post('/client', function(req, res) {
     if (err)
         return res.status(500).send(err);
 
-    res.sendFile(path.resolve('public/complete.html'));
+    //res.sendFile(path.resolve('public/complete.html'));
+    res.redirect(path.join(req.baseUrl + '/../'));
     });
 });
 
