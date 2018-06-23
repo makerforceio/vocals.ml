@@ -6,7 +6,8 @@ var logger = require('morgan');
 var fileUpload = require('express-fileupload');
 
 var indexRouter = require('./routes/index');
-var audioRouter = require('./routes/audio');
+var uploadRouter = require('./routes/upload');
+var downloadRouter = require('./routes/download');
 
 var app = express();
 
@@ -21,7 +22,8 @@ app.use(cookieParser());
 app.use(fileUpload());
 
 app.use('/', indexRouter);
-app.use('/upload', audioRouter);
+app.use('/upload', uploadRouter);
+app.use('/download', downloadRouter);
 app.use('/static', express.static('public'));
 
 // catch 404 and forward to error handler
