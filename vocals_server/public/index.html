@@ -52,22 +52,29 @@
         <h1 class="mb-sm-3">Features</h1>
         <p class="lead text-left">
           vocals.ml is a neural network capable of converting your normal voice recording to that of a professional narrator. Using vocals.ml,
-          you can create professional voiceovers, youtube videos, promotional videos, school projects, audiobooks and so much more! Try it out
-          for free below.
+          you can create professional voiceovers, youtube videos, promotional videos, school projects, audiobooks and so much more! It works by 
+          using state of the art deep learning techniques to create artificial voice profiles of famous narrators. Then, it is able to cross match
+          your voice with these voice profiles to generate what you said in their voice.   
+
+          <ul style="font-size: 20px;">
+            <li>Potentially infinite number of voice profiles</li>
+            <li>Non language specific encoding system</li>
+            <li>Speech to Speech conversion (possibly real-time)</li>
+            <li>Add your own voice profiles <sup><span class="badge badge-dark" style="background-color: #EEEEEE;color: #757575;">WIP</span></sup></li>
+          </ul>
         </p>
       </div>
-      <div class="row">
-        <h1 class="mb-sm-3">Pricing</h1>
-      </div>
+
       <div class="row">
          <h1 class="mb-sm-3">Try now</h1>
       </div>
-      <div class="row">
+      <div class="row justify-content-center">
+        <div class="col-sm-12">
         <form action="/upload" method="POST" enctype="multipart/form-data">
           <div class="form-group">
             <label for="exampleInputEmail1">Email address</label>
             <input type="email" class="form-control" id="exampleInputEmail1" aria-describedby="emailHelp" placeholder="Enter email">
-            <small id="emailHelp" class="form-text text-muted">We'll never share your email with anyone else.</small>
+            <small id="emailHelp" class="form-text text-muted">We'll email you a download link once it's ready!</small>
           </div>
           <div class="custom-file mb-sm-3">
             <input type="file" class="custom-file-input" id="customFile" name="sampleAudio">
@@ -76,7 +83,10 @@
           <button type="submit" class="btn btn-primary">Submit</button>
         </form>
       </div>
+      </div>
     </div>
+
+
 
     <!-- Optional JavaScript -->
     <!-- jQuery first, then Popper.js, then Bootstrap JS -->
