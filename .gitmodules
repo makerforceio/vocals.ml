@@ -1,0 +1,3 @@
+[submodule "vocals.ml-AI"]
+	path = vocals.ml-AI
+	url = https://github.com/IsaacTay/vocals.ml-AI.git
