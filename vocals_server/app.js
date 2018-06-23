@@ -19,10 +19,10 @@ app.use(express.json());
 app.use(express.urlencoded({ extended: false }));
 app.use(cookieParser());
 app.use(fileUpload());
-//app.use(express.static(path.join(__dirname, 'public')));
 
 app.use('/', indexRouter);
 app.use('/upload', audioRouter);
+app.use('/static', express.static('public'));
 
 // catch 404 and forward to error handler
 app.use(function(req, res, next) {
