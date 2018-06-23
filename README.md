@@ -1,5 +1,5 @@
 # vocals_ml
-The server and website for vocals.ml
+The server and website for vocals.ml. This website is terribly coded cause i have no idea what im doing and the link it probably gonna go down directly after the hackathon so... look at the actual ML implementation if you want to replicate it I guess.
 
 # Website About
 Vocals ML is a website that allows you to convert your speech audio files into other voices. (Eg. Morgan Freeman)
